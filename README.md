@@ -16,13 +16,15 @@ Simple yet beautiful carousel. Designed by [Evgeny Rodionov](https://github.com/
 
 `images` should have following model:
 
-    {
-      id: 1,
-      height: 1024,
-      width: 1024,
-      label: 'my cool pic',
-      url:'http://my-cool-domain/my-cool-pic.jpg',
-    }
+    [
+      {
+        id: 1,
+        height: 1024,
+        width: 1024,
+        label: 'my cool pic',
+        url:'http://my-cool-domain/my-cool-pic.jpg',
+      }
+    ]
 
 ## Contributions
 
