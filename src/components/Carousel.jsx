@@ -193,7 +193,7 @@ class ExtendedCarousel extends Component {
   };
 
   render() {
-    const { items } = this.state;
+    const { items, activeItemIdx } = this.state;
     return (
       <RenderInBody style={modalWindowStyle}>
         <BodyClassName className="modal-opened">
@@ -209,9 +209,9 @@ class ExtendedCarousel extends Component {
               )}
             </ItemsWrapper>
             <Counter>
-              {`${(this.state.activeItemIdx + 1) %
-                (this.state.items.length + 1)}/${this.state.items
-                .length} Главный Фасад`}
+              {`${(activeItemIdx + 1) %
+                (items.length + 1)}/${items.length} ${items[activeItemIdx].image
+                .label}`}
             </Counter>
           </Carousel>
         </BodyClassName>

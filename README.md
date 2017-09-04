@@ -10,6 +10,16 @@ Simple yet beautiful carousel
       {this.props.images}
     </Carousel>
 
-activeItemIdx – index of image to show on opening
+`activeItemIdx` – index of image to show on opening
 
-escHandler – callback to trigger on exit from carousel
+`escHandler` – callback to trigger on exit from carousel
+
+`images` should have following model:
+
+    {
+      id: 1,
+      height: 1024,
+      width: 1024,
+      label: 'my cool pic',
+      url:'http://my-cool-domain/my-cool-pic.jpg',
+    }

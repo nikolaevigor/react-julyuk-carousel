@@ -1,8 +1,8 @@
 {
   "name": "react-julyuk-carousel",
-  "version": "0.0.2",
-  "description": "simple yet beautiful carousel",
-  "main": "index.js",
+  "version": "0.0.8",
+  "description": "Simple yet beautiful carousel",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --plugins babel-plugin-transform-class-properties --out-dir dist",
     "prepublish": "yarn build",
