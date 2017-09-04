@@ -1,5 +1,5 @@
 # react-julyuk-carousel
-Simple yet beautiful carousel
+Simple yet beautiful carousel. Designed by [Evgeny Rodionov](https://github.com/evgenyrodionov).
 
 ## Usage
 
@@ -23,3 +23,7 @@ Simple yet beautiful carousel
       label: 'my cool pic',
       url:'http://my-cool-domain/my-cool-pic.jpg',
     }
+
+## Contributions
+
+Any contributions are highly appreciated.
