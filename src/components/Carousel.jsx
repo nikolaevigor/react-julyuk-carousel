@@ -203,7 +203,7 @@ class ExtendedCarousel extends Component {
                 <Item
                   key={image.id}
                   style={this.getItemTransformation(idx)}
-                  src={getImageUrl(image.id, 1024)}
+                  src={image.url}
                   onClick={e => this.onItemClick(e, idx)}
                 />
               )}
