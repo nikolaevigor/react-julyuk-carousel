@@ -1,0 +1,34 @@
+{
+  "name": "react-julyuk-carousel",
+  "version": "0.0.1",
+  "description": "simple yet beautiful carousel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikolaevigor/react-julyuk-carousel.git"
+  },
+  "keywords": [
+    "react",
+    "carousel",
+    "ui"
+  ],
+  "author": "Igor Nikolaev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nikolaevigor/react-julyuk-carousel/issues"
+  },
+  "homepage": "https://github.com/nikolaevigor/react-julyuk-carousel#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "react-body-classname": "^1.2.0",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.2"
+  }
+}
