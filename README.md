@@ -5,6 +5,8 @@ Simple yet beautiful carousel. Designed by [Evgeny Rodionov](https://github.com/
 
 ## Usage
 
+    import { Carousel } from 'react-julyuk-carousel';
+
     <Carousel
       activeItemIdx={activeItemIdx || 0}
       escHandler={this.toggleCarousel}
