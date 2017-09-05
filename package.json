@@ -1,6 +1,6 @@
 {
   "name": "react-julyuk-carousel",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "Simple yet beautiful carousel",
   "main": "./dist/index.js",
   "scripts": {

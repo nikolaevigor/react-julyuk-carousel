@@ -1,6 +1,8 @@
 # react-julyuk-carousel
 Simple yet beautiful carousel. Designed by [Evgeny Rodionov](https://github.com/evgenyrodionov).
 
+![gif](https://i.imgur.com/omXTNHF.gif)
+
 ## Usage
 
     <Carousel
